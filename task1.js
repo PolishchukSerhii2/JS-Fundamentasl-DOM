@@ -6,12 +6,17 @@
 // четвертний елемент - змінна fourthEl
 // третій елемент - змінна thirdEl
 
-
+const firstEl = document.querySelector("#list").children[0].textContent;
+const lastEl = document.querySelector("#list").children[1].textContent;
+const secondEl = document.querySelector("#list").children[2].textContent;
+const fourthEl = document.querySelector("#list").children[3].textContent;
+const thirdEl = document.querySelector("#list").children[4].textContent;
 
 module.exports = {
-  firstEl,
-  lastEl,
-  secondtEl,
-  fourthEl,
-  thirdtEl,
+    firstEl,
+
+    lastEl,
+    secondEl,
+    fourthEl,
+    thirdEl
 };
